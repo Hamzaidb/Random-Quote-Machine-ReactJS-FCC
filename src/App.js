@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   const [quoteInfo, setQuoteInfo] =  useState({});
 
-
   useEffect(() => {
     getQuote();
   }, []); 
@@ -21,7 +20,6 @@ function App() {
       });
     });
   };
-
 
   return (
     <div className="App">
